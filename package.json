@@ -2,6 +2,20 @@
   "name": "@sonidelav/vue-lib",
   "version": "1.0.0",
   "description": "VG Vue Components Library",
+  "author": {
+    "name": "Valentinos Galanos",
+    "email": "sonidelav@hotmail.com"
+  },
+  "homepage": "https://github.com/sonidelav/vue-lib",
+  "bugs": "https://github.com/sonidelav/vue-lib/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonidelav/vue-lib.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vue", "vuejs", "plugin", "library", "components"
+  ],
   "main": "dist/vue-lib.ssr.js",
   "browser": "dist/vue-lib.esm.js",
   "module": "dist/vue-lib.esm.js",
