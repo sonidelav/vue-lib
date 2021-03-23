@@ -79,7 +79,7 @@ if (!argv.format || argv.format === 'es') {
     input: 'src/entry.esm.ts',
     external,
     output: {
-      file: 'dist/vue-vglib.esm.js',
+      file: 'dist/vue-lib.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -111,7 +111,7 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-vglib.ssr.js',
+      file: 'dist/vue-lib.ssr.js',
       format: 'cjs',
       name: 'VueVglib',
       exports: 'auto',
@@ -141,7 +141,7 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/vue-vglib.min.js',
+      file: 'dist/vue-lib.min.js',
       format: 'iife',
       name: 'VueVglib',
       exports: 'auto',

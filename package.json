@@ -1,15 +1,15 @@
 {
-  "name": "@sonidelav/vue-vglib",
+  "name": "@sonidelav/vue-lib",
   "version": "1.0.0",
   "description": "VG Vue Components Library",
-  "main": "dist/vue-vglib.ssr.js",
-  "browser": "dist/vue-vglib.esm.js",
-  "module": "dist/vue-vglib.esm.js",
-  "unpkg": "dist/vue-vglib.min.js",
-  "types": "vue-vglib.d.ts",
+  "main": "dist/vue-lib.ssr.js",
+  "browser": "dist/vue-lib.esm.js",
+  "module": "dist/vue-lib.esm.js",
+  "unpkg": "dist/vue-lib.min.js",
+  "types": "vue-lib.d.ts",
   "files": [
     "dist/*",
-    "vue-vglib.d.ts",
+    "vue-lib.d.ts",
     "src/**/*.vue"
   ],
   "sideEffects": false,
