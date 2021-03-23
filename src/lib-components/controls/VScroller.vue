@@ -52,7 +52,7 @@ export default {
     },
     methods: {
         scrollHandler() {
-            this.scrollTop = this.$el.scrollTop ?? 0;
+            this.scrollTop = this.$el.scrollTop;
         }
     },
     mounted() {
