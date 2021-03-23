@@ -14,7 +14,11 @@
   },
   "license": "MIT",
   "keywords": [
-    "vue", "vuejs", "plugin", "library", "components"
+    "vue",
+    "vuejs",
+    "plugin",
+    "library",
+    "components"
   ],
   "main": "dist/vue-lib.ssr.js",
   "browser": "dist/vue-lib.esm.js",
